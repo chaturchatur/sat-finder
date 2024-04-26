@@ -1,0 +1,62 @@
+
+.info-box {
+    height: fit-content;
+    width: 350px;
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    text-align: center;
+    padding: 20px; /* Add padding inside the box */
+    box-sizing: border-box; /* Ensure padding doesn't affect the box's width */
+    overflow: hidden; /* Add scrollbars if content overflows */
+}
+
+.info-alert {
+    align-items: center;
+}
+
+.input-box {
+    height: fit-content;
+    width: 350px;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px; /* Add padding inside the box */
+    box-sizing: border-box; /* Ensure padding doesn't affect the box's width */
+    overflow: hidden; /* Add scrollbars if content overflows */
+}
+
+.marker {
+    background-image: url('https://docs.mapbox.com/mapbox-gl-js/assets/pin.svg');
+    background-size: cover;
+    cursor: pointer;
+}
+
+.mapboxgl-popup {
+    color: black;
+    max-width: 400px;
+}
+
+.label-text {
+    color: black;
+}
+
+#divider {
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
